@@ -1,0 +1,15 @@
+{
+  "name": "calculator-scaffolding",
+  "version": "1.0.0",
+  "description": "##### I Am Bham",
+  "main": "main.js",
+  "dependencies": {
+    "less-watch-compiler": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch":"less-watch-compiler"
+  },
+  "author": "",
+  "license": "ISC"
+}
