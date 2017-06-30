@@ -25,7 +25,7 @@ document.addEventListener('click' , function(e) {
             e.target.style.background ='orange'
     setTimeout(resetBackG, 50 )
     function resetBackG(){
-    e.target.style.background = 'white'
+    e.target.style.background = '#E3F2DA'
 }
         }
     else if(e.target.className == 'button' ){
@@ -35,7 +35,7 @@ document.addEventListener('click' , function(e) {
     e.target.style.background ='orange'
     setTimeout(resetBackG, 50 )
     function resetBackG(){
-    e.target.style.background = 'white'
+    e.target.style.background = '#E3F2DA'
 }
 }
 else if (e.target.id == 'subtract' && Numbers.length < 1){
@@ -48,7 +48,7 @@ else if(e.target.className == 'action' && Numbers.length  && (Numbers.last()) !=
 e.target.style.background ='orange'
     setTimeout(resetBackG, 50 )
     function resetBackG(){
-    e.target.style.background = 'grey'
+    e.target.style.background = '#9988AA'
 }
 Numbers.push(e.target.innerHTML)
 readout.innerHTML= null
@@ -63,6 +63,7 @@ Equation=Numbers.join('')
     console.log(Numbers)
     console.log(Equation)
     Numbers=[]
+    
 }
 });
 
